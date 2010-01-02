@@ -1,0 +1,16 @@
+options:
+  charset: utf8
+PaymentSession:
+  actAs: [Timestampable]
+  columns:
+    id: { type: integer(4), primary: true, autoincrement: true }
+    member_id: { type: integer(4), notnull: true }
+    session: { type: string, notnull: true }
+    status: { type: string, notnull:true, default:"bf_ipn" }
+  relations:
+    Member:
+      foreignAlias: PaymentSessions
+      onDelete: cascade
+  indexes:
+    session:
+      fields: [session]

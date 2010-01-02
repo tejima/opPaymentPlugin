@@ -1,0 +1,14 @@
+point:
+  _attributes:
+    caption:        "ポイント設定"
+    enable_pc:      false
+    enable_mobile:  false
+  POINT:
+    Name:           "POINT"
+    Caption:        "ポイント"
+    FormType:       "input"
+    ValueType:      "int"
+    IsRegist:       false
+    IsConfig:       false
+    IsRequired:     false
+    IsConfirm:      false

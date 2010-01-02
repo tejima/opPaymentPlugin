@@ -1,0 +1,7 @@
+viewpoint:
+  caption:
+    ja_JP: "Paymentポイントガジェット"
+  description:
+    ja_JP: "ユーザーごとの保有ポイントを表示します。"
+  component: [ui, viewpoint]
+
