@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>opPaymentPlugin</name>
+ <channel>plugins.openpne.jp</channel>
+ <summary>opPaymentPlugin</summary>
+ <description>opPaymentPlugin</description>
+ <lead>
+  <name />
+  <user>tejima</user>
+  <email />
+  <active>yes</active>
+ </lead>
+ <date>2010-02-08</date>
+ <time>19:37:51</time>
+ <version>
+  <release>0.1</release>
+  <api>0.1</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license>Apache</license>
+ <notes>none</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="b0c7aa13b777543de7a7d2b27e56b3b5" name="apps/pc_frontend/modules/paypal/actions/actions.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="apps/pc_frontend/modules/paypal/templates/indexSuccess.php" role="data" />
+   <file baseinstalldir="/" md5sum="6d1d498f6ce7a32d9efab0916bf3ce4c" name="apps/pc_frontend/modules/paypal/templates/ipnSuccess.php" role="data" />
+   <file baseinstalldir="/" md5sum="c253da3c18ac5fd3892f85ca37d318f3" name="apps/pc_frontend/modules/ui/actions/actions.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="7f5d34f87fc62a82da9829314c594164" name="apps/pc_frontend/modules/ui/actions/components.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="apps/pc_frontend/modules/ui/templates/indexSuccess.php" role="data" />
+   <file baseinstalldir="/" md5sum="bf018400d910239d2791113159c2981b" name="apps/pc_frontend/modules/ui/templates/_viewpoint.php" role="data" />
+   <file baseinstalldir="/" md5sum="38ae55a51c675522018607028ce4c7ce" name="config/gadget.yml" role="data" />
+   <file baseinstalldir="/" md5sum="ae1448a4ed2acec48b7db41e0ed1f76b" name="config/member_config.yml" role="data" />
+   <file baseinstalldir="/" md5sum="fab64ff285568875f7862eb2ae4de904" name="config/doctrine/schema.yml" role="data" />
+   <file baseinstalldir="/" md5sum="780742946e813a54a48e6ba2fe43baf2" name="lib/paypal.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="34d5d48bc3cca7e899c245c171c2ae00" name="lib/filter/doctrine/PluginPaymentSessionFormFilter.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="dc36a67d136497e291b5542d23b742a9" name="lib/form/doctrine/MemberConfigPointForm.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="ec7e5143d204110cb6602a919acc3d2d" name="lib/form/doctrine/PluginPaymentSessionForm.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="050cfd4a50a8d7df61fc5d4477d4cdbf" name="lib/model/doctrine/PluginPaymentSession.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="6b9294c5111c2d9b920bfe5f46366323" name="lib/model/doctrine/PluginPaymentSessionTable.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="b43e4fe41e30c397c13f9ccee318f76b" name="test/bootstrap/database.php" role="data" />
+   <file baseinstalldir="/" md5sum="99e445b44e52afe6383978eb2f00ce06" name="test/bootstrap/functional.php" role="data" />
+   <file baseinstalldir="/" md5sum="991079fe8d10bb37ea01163b27fb2383" name="test/bootstrap/unit.php" role="data" />
+   <file baseinstalldir="/" md5sum="8471fade12b0760fab6715ffb8b8f9e4" name="test/fixtures/test_data.yml" role="data" />
+   <file baseinstalldir="/" md5sum="f7abf8705dd239ee4b5ca6dab7d62cc5" name="test/functional/mobile_frontend/skeletonActionsTest.php" role="data" />
+   <file baseinstalldir="/" md5sum="3dbb728b843dbf2bb940ed44376b750c" name="test/functional/pc_frontend/skeletonActionsTest.php" role="data" />
+   <file baseinstalldir="/" md5sum="52440ab0abcc01c98551283f1e9942e1" name="test/unit/model/SkeletonTest.php" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.3</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <package>
+    <name>symfony</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.2.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1</release>
+    <api>0.1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2010-02-08</date>
+   <license>Apache</license>
+   <notes>none</notes>
+  </release>
+ </changelog>
+</package>
