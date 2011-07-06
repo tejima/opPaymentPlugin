@@ -14,7 +14,9 @@
 <option value="10000">10,000円</option>
 </select>
 <input type="hidden" name="cmd" value="_xclick">
-<input type="hidden" name="notify_url" value="http://1226.f3.pne.jp:10080/pc_frontend_dev.php/paypal/ipn">
+<input type="hidden" name="notify_url" value="http://a2m.sv1.pne.jp/pc_frontend_dev.php/paypal/ipn">
+
+<input TYPE="hidden" NAME="return" value="http://a2m.sv1.pne.jp/" >
 <input type="hidden" name="business" value="tejima+seller@gmail.com">
 <input type="hidden" name="item_name" value="OpenPNEポイント購入 サイト名(<?php echo Doctrine::getTable('SnsConfig')->get('sns_name', 'none'); ?>) ID番号(<?php echo $member->getId(); ?>)">
 <input type="hidden" name="currency_code" value="JPY">

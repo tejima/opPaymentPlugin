@@ -7,6 +7,7 @@ PaymentSession:
     member_id: { type: integer(4), notnull: true }
     session: { type: string, notnull: true }
     status: { type: string, notnull:true, default:"bf_ipn" }
+    amount: { type: integer(4), notnull: true }
   relations:
     Member:
       foreignAlias: PaymentSessions

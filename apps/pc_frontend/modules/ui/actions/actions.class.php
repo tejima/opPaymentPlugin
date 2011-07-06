@@ -33,6 +33,7 @@ class uiActions extends sfActions
     $session = new PaymentSession();
     $session->member_id = $this->getUser()->getMemberId();
     $session->session = $request->getParameter('custom');
+    $session->amount = (int)$request->getParameter('amount');
     $session->save();
     $this->redirect('https://www.sandbox.paypal.com/cgi-bin/webscr?'.$_SERVER['QUERY_STRING'],302);
   }
